@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The SS Jeremiah O'Brien is the last unaltered Liberty Ship in existence — a living WWII memorial and museum ship at Pier 35, San Francisco." />
+  <meta property="og:title" content="SS Jeremiah O'Brien — National Liberty Ship Memorial" />
+  <meta property="og:description" content="Visit the last surviving unaltered Liberty Ship at Pier 35, San Francisco. Open daily 10am–4pm." />
+  <meta property="og:image" content="images/hero.webp" />
+  <title>SS Jeremiah O'Brien — National Liberty Ship Memorial</title>
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles-v4.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════ -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="https://www.ssjeremiahobrien.org/" class="nav__logo" aria-label="SS Jeremiah O'Brien — Home">
+        <span class="nav__logo-text">SS Jeremiah O'Brien</span>
+        <span class="nav__logo-sub">National Liberty Ship Memorial</span>
+      </a>
+
+      <button class="nav__toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="https://www.ssjeremiahobrien.org/history">History</a></li>
+        <li><a href="https://www.ssjeremiahobrien.org/events">Events</a></li>
+        <li><a href="https://www.ssjeremiahobrien.org/overnight">Overnight</a></li>
+        <li><a href="https://www.ssjeremiahobrien.org/gallery">Gallery</a></li>
+        <li><a href="https://www.ssjeremiahobrien.org/visit" class="nav__cta">Plan Your Visit</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════
+       HERO — Split: Image Left / Navy Panel Right
+  ══════════════════════════════════════════ -->
+  <section class="hero" id="home" aria-label="Hero">
+    <div class="hero__image">
+      <img
+        src="images/hero.webp"
+        alt="SS Jeremiah O'Brien anchored at Pier 35 with the Bay Bridge in the background"
+        width="1400"
+        height="900"
+        loading="eager"
+        fetchpriority="high"
+      />
+    </div>
+
+    <div class="hero__panel" aria-label="Introduction">
+      <div class="hero__panel-inner">
+        <p class="hero__eyebrow">
+          <span class="dot"></span>Pier 35 &middot; San Francisco
+        </p>
+        <h1 class="hero__title">Sail Into<br />History</h1>
+        <p class="hero__desc">
+          The SS Jeremiah O'Brien is the last unaltered Liberty Ship in
+          existence — a living WWII memorial at Pier&nbsp;35, San Francisco.
+        </p>
+        <div class="hero__ctas">
+          <a href="https://www.ssjeremiahobrien.org/visit" class="btn btn--teal">Plan Your Visit</a>
+          <a href="https://www.ssjeremiahobrien.org/history" class="btn btn--outline-light">Learn Our Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       HISTORY
+  ══════════════════════════════════════════ -->
+  <section class="history" id="history" aria-label="History">
+
+    <!-- ── Horizontal Stat Strip ── -->
+    <div class="stat-strip" role="list" aria-label="Key statistics">
+      <div class="stat-strip__track">
+
+        <div class="stat-card" role="listitem">
+          <span class="stat-card__num">1943</span>
+          <span class="stat-card__label">Year Built</span>
+        </div>
+
+        <div class="stat-card" role="listitem">
+          <span class="stat-card__num">56</span>
+          <span class="stat-card__label">Days to Build</span>
+        </div>
+
+        <div class="stat-card" role="listitem">
+          <span class="stat-card__num">7</span>
+          <span class="stat-card__label">Wartime Voyages</span>
+        </div>
+
+        <div class="stat-card" role="listitem">
+          <span class="stat-card__num">11</span>
+          <span class="stat-card__label">D-Day Channel Crossings</span>
+        </div>
+
+        <div class="stat-card" role="listitem">
+          <span class="stat-card__num">2,751</span>
+          <span class="stat-card__label">Liberty Ships Built in WWII</span>
+        </div>
+
+        <div class="stat-card" role="listitem">
+          <span class="stat-card__num">#1</span>
+          <span class="stat-card__label">Last Unaltered Survivor</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── History Text + Aside ── -->
+    <div class="history__content">
+
+      <div class="history__text">
+        <p class="section-label"><span class="dot"></span>Our History</p>
+        <h2 class="section-title">A Living Piece<br />of World War II</h2>
+
+        <p>
+          The SS Jeremiah O'Brien is the last unaltered Liberty Ship in existence —
+          a floating testament to American industry and the courage of the men and
+          women who built and sailed her into harm's way.
+        </p>
+        <p>
+          Built in June 1943 at the New England Shipbuilding Corporation in South
+          Portland, Maine in just 56 days, she completed seven wartime voyages
+          including eleven crossings of the English Channel during the D-Day
+          invasion of Normandy — more Channel crossings than any other vessel.
+        </p>
+        <p>
+          In 1994, the O'Brien made the extraordinary 18,000-mile round trip back
+          to Normandy for the 50th anniversary commemoration — the only surviving
+          Liberty Ship to do so. Today she is fully certified by the US Coast Guard
+          and approved by the American Bureau of Shipping, operated by an all-volunteer
+          crew since 1979.
+        </p>
+
+        <a href="https://www.ssjeremiahobrien.org/history" class="btn btn--outline-navy">Read the Full Story</a>
+      </div>
+
+      <aside class="history__aside" aria-label="Location information">
+        <div class="history__aside-inner">
+          <p class="history__aside-label">Now at Pier 35</p>
+          <p class="history__aside-address">
+            The Embarcadero<br />
+            San Francisco, CA 94133
+          </p>
+          <hr class="divider" />
+          <p class="history__aside-small">
+            After relocating from Pier 45, the O'Brien continues her mission as
+            a floating memorial open to the public year-round. Certified by the
+            US Coast Guard. Approved by the American Bureau of Shipping.
+          </p>
+          <hr class="divider" />
+          <p class="history__aside-small" style="margin-top: .5rem;">
+            <strong style="color: var(--navy-deep); font-weight: 700;">Open Daily</strong><br />
+            10:00 AM – 4:00 PM
+          </p>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       GALLERY
+  ══════════════════════════════════════════ -->
+  <section class="gallery" id="gallery" aria-label="Photo gallery">
+
+    <div class="gallery__header">
+      <p class="section-label"><span class="dot"></span>Photo Gallery</p>
+      <h2 class="section-title">The Ship Up Close</h2>
+    </div>
+
+    <div class="gallery__grid" role="list" aria-label="Ship photographs">
+
+      <!-- Row 1: large left -->
+      <div class="gallery__main" role="listitem">
+        <div class="gallery__item gallery__item--large" tabindex="0" role="button" aria-label="View photo: SS Jeremiah O'Brien aerial view">
+          <img src="images/gallery-1.webp" alt="SS Jeremiah O'Brien aerial view from above" loading="lazy" />
+          <div class="gallery__overlay" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <!-- Row 1: two stacked right -->
+      <div class="gallery__stack" role="listitem">
+        <div class="gallery__item" tabindex="0" role="button" aria-label="View photo: O'Brien deck detail">
+          <img src="images/gallery-2.webp" alt="SS Jeremiah O'Brien deck detail view" loading="lazy" />
+          <div class="gallery__overlay" aria-hidden="true"></div>
+        </div>
+        <div class="gallery__item" tabindex="0" role="button" aria-label="View photo: O'Brien at dock">
+          <img src="images/gallery-3.webp" alt="SS Jeremiah O'Brien moored at the waterfront" loading="lazy" />
+          <div class="gallery__overlay" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <!-- Row 2: three equal -->
+      <div class="gallery__item gallery__item--third" tabindex="0" role="button" aria-label="View photo: bow view">
+        <img src="images/gallery-4.webp" alt="SS Jeremiah O'Brien bow view" loading="lazy" />
+        <div class="gallery__overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="gallery__item gallery__item--third" tabindex="0" role="button" aria-label="View photo: superstructure">
+        <img src="images/gallery-5.webp" alt="SS Jeremiah O'Brien superstructure and rigging" loading="lazy" />
+        <div class="gallery__overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="gallery__item gallery__item--third" tabindex="0" role="button" aria-label="View photo: city backdrop">
+        <img src="images/gallery-6.webp" alt="SS Jeremiah O'Brien with San Francisco city backdrop" loading="lazy" />
+        <div class="gallery__overlay" aria-hidden="true"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       VISIT
+  ══════════════════════════════════════════ -->
+  <section class="visit" id="visit" aria-label="Visit information">
+    <div class="visit__inner">
+
+      <div class="visit__info">
+        <p class="section-label"><span class="dot"></span>Plan Your Visit</p>
+        <h2 class="section-title">Come Aboard</h2>
+
+        <div class="visit__hours">
+          <p class="visit__hours-label">Open Daily</p>
+          <p class="visit__hours-time">10:00 AM – 4:00 PM</p>
+          <p class="visit__hours-addr">
+            Pier 35, The Embarcadero<br />
+            San Francisco, CA 94133
+          </p>
+        </div>
+
+        <div class="visit__overnight">
+          <h3>Overnight Programs</h3>
+          <p>
+            Experience the ship after dark. Overnight programs are available most
+            Fridays and Saturdays for school groups, scout troops, and families.
+            Bunk in authentic crew quarters and wake up aboard a piece of living history.
+          </p>
+          <a href="https://www.ssjeremiahobrien.org/overnight" class="btn btn--outline-navy">
+            Learn About Overnights
+          </a>
+        </div>
+      </div>
+
+      <div class="visit__admission">
+        <h3>Admission</h3>
+        <table class="admission-table" aria-label="Admission pricing">
+          <tbody>
+            <tr>
+              <td>General</td>
+              <td>$20</td>
+            </tr>
+            <tr>
+              <td>Senior (65+)</td>
+              <td>$15</td>
+            </tr>
+            <tr>
+              <td>Student (with valid ID)</td>
+              <td>$15</td>
+            </tr>
+            <tr>
+              <td>Junior (ages 5–12)</td>
+              <td>$10</td>
+            </tr>
+            <tr>
+              <td>Family (2 adults + children)</td>
+              <td>$45</td>
+            </tr>
+            <tr>
+              <td>Active Military</td>
+              <td>$10</td>
+            </tr>
+            <tr class="free-row">
+              <td>Active Military in Uniform</td>
+              <td>Free</td>
+            </tr>
+            <tr class="free-row">
+              <td>Children Under 5</td>
+              <td>Free</td>
+            </tr>
+            <tr class="free-row">
+              <td>NLSM / HNSA Members</td>
+              <td>Free</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <a href="https://www.ssjeremiahobrien.org/tickets" class="btn btn--teal" style="margin-top: 2rem; display: inline-flex;">
+          Get Tickets
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       EVENTS
+  ══════════════════════════════════════════ -->
+  <section class="events" id="events" aria-label="Upcoming events">
+
+    <div class="events__header">
+      <p class="section-label"><span class="dot"></span>Upcoming Events</p>
+      <h2 class="section-title">Sail With Us</h2>
+    </div>
+
+    <div class="events__grid">
+
+      <!-- Fleet Week -->
+      <article class="event-card" aria-label="Fleet Week Cruise">
+        <div class="event-card__bar" aria-hidden="true"></div>
+        <div class="event-card__body">
+          <p class="event-card__tag">Annual Event</p>
+          <h3 class="event-card__title">Fleet Week Cruise</h3>
+          <p class="event-card__desc">
+            Join us as the O'Brien takes to the Bay during San Francisco's
+            celebrated Fleet Week. Cruise past the Golden Gate Bridge and
+            watch the Blue Angels from the deck of a historic Liberty Ship.
+            A once-in-a-lifetime experience.
+          </p>
+          <p class="event-card__price">$105 – $195 per person</p>
+          <a href="https://www.ssjeremiahobrien.org/events/fleet-week" class="btn btn--outline-navy btn--sm">
+            Reserve Your Spot
+          </a>
+        </div>
+      </article>
+
+      <!-- Overnight -->
+      <article class="event-card" aria-label="Overnight Program">
+        <div class="event-card__bar" aria-hidden="true"></div>
+        <div class="event-card__body">
+          <p class="event-card__tag">Most Fridays &amp; Saturdays</p>
+          <h3 class="event-card__title">Overnight Program</h3>
+          <p class="event-card__desc">
+            Spend the night aboard the O'Brien in authentic crew berths.
+            Available to school groups, scout troops, and families. A
+            one-of-a-kind educational adventure on the San Francisco
+            waterfront — unforgettable for all ages.
+          </p>
+          <p class="event-card__price">Call for group pricing</p>
+          <a href="https://www.ssjeremiahobrien.org/overnight" class="btn btn--outline-navy btn--sm">
+            Book an Overnight
+          </a>
+        </div>
+      </article>
+
+      <!-- Daily Tours -->
+      <article class="event-card" aria-label="Daily Guided Tours">
+        <div class="event-card__bar" aria-hidden="true"></div>
+        <div class="event-card__body">
+          <p class="event-card__tag">Daily · 10 am – 4 pm</p>
+          <h3 class="event-card__title">Daily Guided Tours</h3>
+          <p class="event-card__desc">
+            Explore the engine room, crew quarters, cargo holds, and bridge
+            with a knowledgeable volunteer guide. Our crew brings the ship to
+            life with firsthand stories and deep maritime expertise that no
+            exhibit can replace.
+          </p>
+          <p class="event-card__price">Included with admission</p>
+          <a href="https://www.ssjeremiahobrien.org/visit" class="btn btn--outline-navy btn--sm">
+            Plan Your Visit
+          </a>
+        </div>
+      </article>
+
+      <!-- JOBARC -->
+      <article class="event-card" aria-label="JOBARC Ham Radio Club">
+        <div class="event-card__bar" aria-hidden="true"></div>
+        <div class="event-card__body">
+          <p class="event-card__tag">Ham Radio</p>
+          <h3 class="event-card__title">JOBARC Amateur Radio Club</h3>
+          <p class="event-card__desc">
+            The Jeremiah O'Brien Amateur Radio Club (JOBARC) operates from
+            aboard the ship, hosting special event broadcasts and connecting
+            history with modern amateur radio enthusiasts around the world.
+            New members always welcome.
+          </p>
+          <p class="event-card__price">Members welcome</p>
+          <a href="https://www.ssjeremiahobrien.org/jobarc" class="btn btn--outline-navy btn--sm">
+            Learn More
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       GET INVOLVED
+  ══════════════════════════════════════════ -->
+  <section class="involved" id="involved" aria-label="Get involved">
+
+    <div class="involved__header">
+      <p class="section-label"><span class="dot"></span>Get Involved</p>
+      <h2 class="section-title">Help Us Preserve<br />History</h2>
+    </div>
+
+    <div class="involved__cards">
+
+      <!-- ── DONATE ── -->
+      <div class="involve-card" aria-label="Donate">
+        <div class="involve-card__icon" aria-hidden="true">
+          <!-- Heart + Dollar SVG -->
+          <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M24 41.5C23.4 41.5 22.8 41.3 22.3 40.8L7.4 26.4C4.9 23.9 3.5 20.6 3.5 17.1C3.5 10.2 9 4.5 16 4.5C18.9 4.5 21.6 5.5 23.8 7.3L24 7.5L24.2 7.3C26.4 5.5 29.1 4.5 32 4.5C39 4.5 44.5 10.2 44.5 17.1C44.5 20.6 43.1 23.9 40.6 26.4L25.7 40.8C25.2 41.3 24.6 41.5 24 41.5Z" fill="#CAF0F8" stroke="#0096C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="24" y="26" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="15" font-weight="700" fill="#003566">$</text>
+          </svg>
+        </div>
+
+        <h3 class="involve-card__title">Donate</h3>
+        <p class="involve-card__desc">
+          Your support preserves this national treasure. After relocating from
+          Pier 45, we're gearing up for the most comprehensive maintenance period
+          in the ship's history. Every dollar goes directly to keeping her afloat
+          and open to the public.
+        </p>
+        <blockquote class="involve-card__quote">
+          "Every gift makes a difference."
+          <cite>— Ken Wright, President</cite>
+        </blockquote>
+        <a href="https://www.ssjeremiahobrien.org/donate" class="btn btn--teal">Make a Gift</a>
+      </div>
+
+      <!-- ── MEMBERSHIP ── -->
+      <div class="involve-card" aria-label="Membership">
+        <div class="involve-card__icon" aria-hidden="true">
+          <!-- Star / Badge SVG -->
+          <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M24 5L28.5 15.5L40 17L32 24.5L34 36L24 30.5L14 36L16 24.5L8 17L19.5 15.5L24 5Z" fill="#CAF0F8" stroke="#0096C7" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M24 10.5L27.2 17.8L35 18.9L29.5 24.2L30.9 32L24 28.3L17.1 32L18.5 24.2L13 18.9L20.8 17.8L24 10.5Z" fill="#0096C7"/>
+          </svg>
+        </div>
+
+        <h3 class="involve-card__title">Membership</h3>
+        <p class="involve-card__desc">
+          Join the crew. Members receive free admission year-round, exclusive
+          invitations to member events, and the satisfaction of knowing their
+          support is keeping this irreplaceable ship afloat.
+        </p>
+        <ul class="involve-card__list" aria-label="Membership levels and pricing">
+          <li><span>Student</span><span>$35 / year</span></li>
+          <li><span>Individual</span><span>$50 / year</span></li>
+          <li><span>Family</span><span>$100 / year</span></li>
+          <li><span>Sponsor</span><span>$250 / year</span></li>
+          <li><span>Admiral</span><span>$1,000 / year</span></li>
+        </ul>
+        <a href="https://www.ssjeremiahobrien.org/membership" class="btn btn--teal">Join Today</a>
+      </div>
+
+      <!-- ── VOLUNTEER ── -->
+      <div class="involve-card" aria-label="Volunteer">
+        <div class="involve-card__icon" aria-hidden="true">
+          <!-- People / Hands SVG -->
+          <svg width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="16" cy="12" r="5" fill="#CAF0F8" stroke="#0096C7" stroke-width="2"/>
+            <circle cx="32" cy="12" r="5" fill="#CAF0F8" stroke="#0096C7" stroke-width="2"/>
+            <path d="M6 37C6 30 10.5 25 16 25C18.6 25 21 26.1 22.8 28" stroke="#0096C7" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M42 37C42 30 37.5 25 32 25C29.4 25 27 26.1 25.2 28" stroke="#0096C7" stroke-width="2.5" stroke-linecap="round"/>
+            <ellipse cx="24" cy="33" rx="5" ry="8" fill="#CAF0F8" stroke="#003566" stroke-width="2"/>
+            <path d="M20 30L24 27L28 30" stroke="#003566" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <h3 class="involve-card__title">Volunteer</h3>
+        <p class="involve-card__desc">
+          The O'Brien runs on the dedication of her volunteer crew. Whether
+          you're a seasoned mariner or eager newcomer, there's a meaningful role
+          for you — from maintenance to visitor services to sailing crew on
+          our special cruises.
+        </p>
+        <ul class="involve-card__bullets">
+          <li>Deck &amp; engine maintenance</li>
+          <li>Visitor services &amp; guided tours</li>
+          <li>Sailing crew for special cruises</li>
+        </ul>
+        <a href="https://www.ssjeremiahobrien.org/volunteer" class="btn btn--teal">Join the Crew</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="footer" aria-label="Site footer">
+
+    <div class="footer__inner">
+
+      <div class="footer__brand">
+        <p class="footer__ship-name">SS Jeremiah O'Brien</p>
+        <p class="footer__org">National Liberty Ship Memorial</p>
+        <address class="footer__addr" style="font-style:normal;">
+          Pier 35, The Embarcadero<br />
+          San Francisco, CA 94133
+        </address>
+
+        <div class="footer__social" aria-label="Social media links">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/ssjeremiahobrien" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <!-- YouTube -->
+          <a href="https://www.youtube.com/@ssjeremiahobrien" aria-label="YouTube" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75,15.02 15.5,12 9.75,8.98 9.75,15.02" fill="#001D3D"/></svg>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/ssjeremiahobrien" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <div class="footer__col">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="https://www.ssjeremiahobrien.org/visit">Plan Your Visit</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/tickets">Get Tickets</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/overnight">Overnight Programs</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/events">Events Calendar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Learn</h4>
+          <ul>
+            <li><a href="https://www.ssjeremiahobrien.org/history">History</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/gallery">Photo Gallery</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/jobarc">Ham Radio (JOBARC)</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/store">Ship's Store</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="https://www.ssjeremiahobrien.org/donate">Donate</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/membership">Membership</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/volunteer">Volunteer</a></li>
+            <li><a href="https://www.ssjeremiahobrien.org/contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
+    <div class="footer__bottom">
+      <p id="copyright"></p>
+      <p>
+        <a href="https://www.ssjeremiahobrien.org/privacy">Privacy Policy</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://www.ssjeremiahobrien.org/contact">Contact</a>
+      </p>
+    </div>
+
+  </footer>
+
+
+  <!-- ══════════════════════════════════════════
+       LIGHTBOX
+  ══════════════════════════════════════════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" tabindex="-1">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close photo viewer">&times;</button>
+    <button class="lightbox__prev" id="lightboxPrev" aria-label="Previous photo">&#8249;</button>
+    <button class="lightbox__next" id="lightboxNext" aria-label="Next photo">&#8250;</button>
+    <div class="lightbox__img-wrap">
+      <img src="" alt="" id="lightboxImg" />
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════
+       SCRIPTS
+  ══════════════════════════════════════════ -->
+  <script>
+    // ── Footer: dynamic copyright year ──
+    document.getElementById('copyright').textContent =
+      '\u00A9 ' + new Date().getFullYear() + ' National Liberty Ship Memorial';
+
+    // ── Sticky nav: add shadow on scroll ──
+    const nav = document.getElementById('nav');
+    const onScroll = () => nav.classList.toggle('nav--scrolled', window.scrollY > 8);
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // ── Mobile nav toggle ──
+    const toggle = document.querySelector('.nav__toggle');
+    const navLinks = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+      navLinks.classList.toggle('nav__links--open', !isOpen);
+    });
+
+    // Close mobile nav on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        navLinks.classList.remove('nav__links--open');
+      });
+    });
+
+    // ── Gallery Lightbox ──
+    const galleryItems = Array.from(document.querySelectorAll('.gallery__item'));
+    const lightbox    = document.getElementById('lightbox');
+    const lbImg       = document.getElementById('lightboxImg');
+    const lbClose     = document.getElementById('lightboxClose');
+    const lbPrev      = document.getElementById('lightboxPrev');
+    const lbNext      = document.getElementById('lightboxNext');
+    let   lbCurrent   = 0;
+
+    // Collect all actual image elements within gallery items
+    const galleryImgs = galleryItems.map(item => item.querySelector('img'));
+
+    function openLightbox(idx) {
+      lbCurrent = (idx + galleryImgs.length) % galleryImgs.length;
+      const img = galleryImgs[lbCurrent];
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      lightbox.classList.add('lightbox--open');
+      lightbox.focus();
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('lightbox--open');
+      document.body.style.overflow = '';
+      // Return focus to the item that opened the lightbox
+      galleryItems[lbCurrent] && galleryItems[lbCurrent].focus();
+    }
+
+    // Open on click
+    galleryItems.forEach((item, i) => {
+      item.addEventListener('click', () => openLightbox(i));
+      item.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(i); }
+      });
+    });
+
+    // Controls
+    lbClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+
+    lbPrev.addEventListener('click', e => { e.stopPropagation(); openLightbox(lbCurrent - 1); });
+    lbNext.addEventListener('click', e => { e.stopPropagation(); openLightbox(lbCurrent + 1); });
+
+    document.addEventListener('keydown', e => {
+      if (!lightbox.classList.contains('lightbox--open')) return;
+      if (e.key === 'Escape')      closeLightbox();
+      if (e.key === 'ArrowLeft')   openLightbox(lbCurrent - 1);
+      if (e.key === 'ArrowRight')  openLightbox(lbCurrent + 1);
+    });
+
+    // Touch swipe support for lightbox
+    let touchStartX = 0;
+    lightbox.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; }, { passive: true });
+    lightbox.addEventListener('touchend', e => {
+      const dx = e.changedTouches[0].screenX - touchStartX;
+      if (Math.abs(dx) > 40) dx < 0 ? openLightbox(lbCurrent + 1) : openLightbox(lbCurrent - 1);
+    });
+  </script>
+
+</body>
+</html>
