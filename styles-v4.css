@@ -1087,7 +1087,6 @@ p {
   height: 64px;
   width: auto;
   display: block;
-  filter: brightness(0) invert(1);   /* white on dark footer */
   margin-bottom: 16px;
 }
 

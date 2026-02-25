@@ -923,7 +923,6 @@ h2 {
   height: 52px;
   width: auto;
   display: block;
-  filter: brightness(0) invert(1);   /* white on dark nav */
   transition: opacity 0.2s ease;
 }
 .nav-logo-img:hover { opacity: 0.85; }
@@ -932,7 +931,6 @@ h2 {
   height: 64px;
   width: auto;
   display: block;
-  filter: brightness(0) invert(1);   /* white on dark footer */
   margin-bottom: 16px;
 }
 
