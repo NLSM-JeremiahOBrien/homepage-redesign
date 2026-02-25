@@ -1524,3 +1524,21 @@ a {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ---------- Logo image ---------- */
+.nav-logo-img {
+  height: 50px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(1);   /* white on black nav */
+  transition: opacity 0.2s ease;
+}
+.nav-logo-img:hover { opacity: 0.85; }
+
+.footer-logo-img {
+  height: 64px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(1);
+  margin-bottom: 16px;
+}
